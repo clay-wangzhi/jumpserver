@@ -1,12 +1,11 @@
 # JumpServer 多云环境下更好用的堡垒机
-dev@clay
 [![License](https://shields.io/github/license/jumpserver/jumpserver)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
 [![Release Downloads](https://shields.io/github/downloads/jumpserver/jumpserver/total)](https://github.com/jumpserver/jumpserver/releases)
 [![Docker Pulls](https://img.shields.io/docker/pulls/jumpserver/jms_all.svg)](https://hub.docker.com/u/jumpserver)
 
 - [ENGLISH](https://github.com/jumpserver/jumpserver/blob/master/README_EN.md)
 
-
+dev@clay
 |《新一代堡垒机建设指南》开放下载|
 |------------------|
 |本白皮书由JumpServer开源项目组编著而成。编写团队从企业实践和技术演进的双重视角出发，结合自身在身份与访问安全领域长期研发及落地经验组织撰写，同时积极听取行业内专家的意见和建议，在此基础上完成了本白皮书的编写任务。下载链接：https://jinshuju.net/f/E0qAl8|
