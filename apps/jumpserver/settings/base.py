@@ -20,7 +20,8 @@ SECRET_KEY = CONFIG.SECRET_KEY
 BOOTSTRAP_TOKEN = CONFIG.BOOTSTRAP_TOKEN
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = CONFIG.DEBUG
+# DEBUG = CONFIG.DEBUG
+DEBUG = True
 
 # Absolute url for some case, for example email link
 SITE_URL = CONFIG.SITE_URL
@@ -41,6 +42,7 @@ INSTALLED_APPS = [
     'assets.apps.AssetsConfig',
     'perms.apps.PermsConfig',
     'ops.apps.OpsConfig',
+    'publish.apps.PublishConfig',
     'settings.apps.SettingsConfig',
     'terminal.apps.TerminalConfig',
     'audits.apps.AuditsConfig',
