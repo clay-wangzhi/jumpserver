@@ -24,6 +24,7 @@ api_v1 = [
     path('tickets/', include('tickets.urls.api_urls', namespace='api-tickets')),
     path('acls/', include('acls.urls.api_urls', namespace='api-acls')),
     path('prometheus/metrics/', api.PrometheusMetricsApi.as_view()),
+    path('publish/', include('publish.urls.api_urls', namespace='api-publish')),
 ]
 
 app_view_patterns = [

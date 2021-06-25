@@ -64,6 +64,7 @@ msgstr "激活中"
 #: users/models/group.py:16 users/models/user.py:583
 #: xpack/plugins/change_auth_plan/models.py:77 xpack/plugins/cloud/models.py:35
 #: xpack/plugins/cloud/models.py:98 xpack/plugins/gathered_user/models.py:26
+#: publish/models/publish.py:17
 msgid "Comment"
 msgstr "备注"
 
@@ -5071,3 +5072,23 @@ msgstr "社区版"
 
 #~ msgid "No"
 #~ msgstr "无"
+
+#: publish/models/publish.py:10
+msgid "GitRepos"
+msgstr "Git 源"
+
+#: publish/models/publish.py:11
+msgid "JenkinsJob"
+msgstr "Jenkins 任务名称"
+
+#: publish/models/publish.py:14
+msgid "TestIP"
+msgstr "测试环境 IP"
+
+#: publish/models/publish.py:15
+msgid "PreIP"
+msgstr "预发布环境 IP"
+
+#: publish/models/publish.py:21
+msgid "JenkinsJobManage"
+msgstr "Jenkins 任务管理"
