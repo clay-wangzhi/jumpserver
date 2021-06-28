@@ -8,6 +8,6 @@ from .. import api
 app_name = 'publish'
 
 rounter = BulkRouter()
-rounter.register(r'publish', api.PublishViewSet, 'publish')
+rounter.register(r'jenkins', api.JenkinsViewSet, 'jenkins')
 
 urlpatterns = rounter.urls

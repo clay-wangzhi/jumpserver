@@ -10,12 +10,12 @@ from django.db.models import Count
 from ..models import JenkinsJobManage
 
 __all__ = [
-    'PublishSerializer',
+    'JenkinsSerializer',
 ]
 
 
 
-class PublishSerializer(BulkOrgResourceModelSerializer):
+class JenkinsSerializer(BulkOrgResourceModelSerializer):
     class Meta:
         model = JenkinsJobManage
         list_serializer_class = AdaptedBulkListSerializer

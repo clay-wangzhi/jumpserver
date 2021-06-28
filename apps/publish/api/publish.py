@@ -6,12 +6,12 @@ from ..hands import IsOrgAdminOrAppUser
 from .. import models, serializers
 
 
-__all__ = ['PublishViewSet']
+__all__ = ['JenkinsViewSet']
 
-class PublishViewSet(OrgBulkModelViewSet):
+class JenkinsViewSet(OrgBulkModelViewSet):
     model = models.JenkinsJobManage
     fillterset_fields = ('name', 'git_repos', 'jenkins_job')
     search_fields = fillterset_fields
     permission_classes = (IsOrgAdminOrAppUser,)
-    serializer_class = serializers.PublishSerializer
+    serializer_class = serializers.JenkinsSerializer
     
